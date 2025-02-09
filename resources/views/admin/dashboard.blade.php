@@ -1,6 +1,6 @@
 <x-app-layout>
     
-    <div class="w-full mx-1 px-10 pt-5 flex flex-col gap-4 mb-8">
+    <div class="w-full px-10 pt-5 flex flex-col gap-4 mb-8">
         <div class="w-full flex justify-center my-5 px-6 py-3 bg-[#D7D3BF] rounded-lg shadow-lg">
             <h1 class="text-3xl font-black text-[#161616] animate-pulse">
                 IMS Dashboard
@@ -8,7 +8,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Card 1: Total Products -->
-            <a href="{{ route('goods') }}" class="p-6 rounded-lg shadow-lg hover:bg-[#8D493A] hover:text-[#D7D3BF] transition delay-50 duration-300 ease-in-out">
+            <a href="{{ route('product.index') }}" class="p-6 rounded-lg shadow-lg hover:bg-[#8D493A] hover:text-[#D7D3BF] transition delay-50 duration-300 ease-in-out">
                 <h3 class="text-xl font-black mb-4">Total Products</h3>
                 <p class="text-3xl font-bold">1,250</p>
             </a>
